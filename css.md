@@ -99,3 +99,12 @@ c// 文字超出显示省略, 父元素要设置overflow: hidden
 	word-break: break-all;
 }
 ```
+
+
+#### flex 布局下子元素的宽度被压缩
+```less
+// flex-shrink 属性指定了 flex 元素的收缩规则。flex 元素仅在默认宽度之和大于容器的时候才会发生收缩，其收缩的大小是依据 flex-shrink 的值
+
+// 在子元素中添加  
+flex-shrink:0;
+```
